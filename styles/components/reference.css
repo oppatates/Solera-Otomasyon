@@ -111,7 +111,8 @@
     transform: translateY(-3px);
 }
 .reference__image {
-    width: 30rem;
+    width: 20rem;
+    margin-left: 2em;
     
     
 }
