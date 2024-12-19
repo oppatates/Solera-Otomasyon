@@ -130,7 +130,7 @@ textarea.input {
 .mail-icon,
 .phone-icon {
     position: relative;
-    left: 4em;
+    left: 3em;
     top: 2.5em;
 }
 .contact__image {
@@ -151,7 +151,15 @@ textarea.input {
 
 
 /* xs  */
-/* @media (min-width: 475px) {} */
+@media (min-width: 400px) {
+    .mail-icon,
+.phone-icon {
+    
+    left: 6em;
+    top: 2.5em;
+}
+
+}
 
 /* small  */
 @media (min-width: 640px) {
