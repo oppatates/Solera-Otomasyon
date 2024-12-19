@@ -37,9 +37,11 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
+    
     font-family: 'Outfit';
     font-weight: 400;
     background-color: #e6e1e1;
