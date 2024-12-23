@@ -71,6 +71,8 @@
     background-color: var(--clr-solera);
     border-radius: 1em;
     transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    list-style-position: inside;
 
 }
 
@@ -380,7 +382,7 @@
             grid-row-end: 5;
             grid-column-start: 4;
             grid-column-end:7;
-            margin-top: 1em;
+            margin-top: 3em;
             margin-left: 7em;
             font-size: var(--size-xl);
            }
@@ -468,7 +470,7 @@
         grid-row-end: 4;
         grid-column-start: 6;
         grid-column-end:6;
-        margin-bottom: 2em;
+        margin-bottom: 5em;
         margin-left: 2.7em;
         margin-top: 0;
        }
@@ -501,19 +503,21 @@
         grid-row-end: 5;
         grid-column-start: 5;
         grid-column-end:8;
-        margin-top: 2em;
+        margin-bottom: 11em;
+        
         margin-left: 7em;
         font-size: var(--size-2xl);
        }
        .about__hr {
         width: 50%;
         border-radius: 2em;
-        grid-row-start: 4;
-        grid-row-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
         grid-column-start: 6;
         grid-column-end:8;
+        margin-top: 24em;
         
-        margin-bottom: 6em;
+        
        }
 
      

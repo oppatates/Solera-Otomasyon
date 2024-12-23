@@ -1,8 +1,6 @@
 .footer {
     position: relative;
     
-    
-    
     background-color: var(--clr-gray);
     border: 1px solid var(--clr-solera);
     border-bottom: 0px;
@@ -62,9 +60,10 @@
 
 /* medium  */
 @media (min-width: 768px) {
-    .footer{
-        top: 310px;
+        .footer{
+        top: 300px;
     }
+
     .footer__title {
         font-size: var(--size-lg);
     }
@@ -87,7 +86,9 @@
 
 /* lg  */
 @media (min-width: 1024px) {
-    
+    .footer{
+        top: 150px;
+    }
     .footer__title {
         font-size: var(--size-xl);
     }
@@ -95,18 +96,9 @@
 
 
 /* xl  */
-@media (min-width: 1280px) {
-    .footer{
-        top: 200px;
-    }
-
-}
+@media (min-width: 1280px) {}
 
 
 /* 2xl  */
-@media (min-width: 1536px) {
-    .footer{
-        top: 150px;
-    }
-}
+/* @media (min-width: 1536px) {} */
 
